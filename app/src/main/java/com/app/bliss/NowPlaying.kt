@@ -50,7 +50,7 @@ class NowPlaying : Fragment() {
                     .load(PlayerActivity.musicListPA[PlayerActivity.songPosition].albumCover)
                     .apply(
                         RequestOptions()
-                            .placeholder(R.drawable.headphoneguy_made_by_vedant_r_j_chourey)
+                            .placeholder(R.drawable.img)
                             .centerInside()
                     ).into(cover)
                 binding.root.setOnClickListener {

@@ -168,7 +168,7 @@ class PlayerActivity : AppCompatActivity(), ServiceConnection, MediaPlayer.OnCom
         Glide.with(this).load(musicListPA[songPosition].albumCover).centerCrop()
             .apply(
                 RequestOptions()
-                    .placeholder(R.drawable.headphoneguy_made_by_vedant_r_j_chourey)
+                    .placeholder(R.drawable.img)
             ).into(cover)
         if (repeat) {
             binding.repeat.setBackgroundResource(R.drawable.btn_shape)

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDF6F5"
+    android:background="#280159"
     tools:context=".PlayerActivity">
 
     <LinearLayout
@@ -144,9 +144,9 @@
 
         <ImageView
             android:id="@+id/albumArt"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/headphoneguy_made_by_vedant_r_j_chourey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img"
             android:scaleType="centerCrop"
             android:contentDescription="@string/contentDescription5"
             android:background="@drawable/background_shape" />

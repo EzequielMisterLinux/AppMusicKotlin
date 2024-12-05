@@ -44,7 +44,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/contentDescription"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/headphoneguy_made_by_vedant_r_j_chourey" />
+                    android:src="@drawable/img" />
             </androidx.cardview.widget.CardView>
 
             <TextView

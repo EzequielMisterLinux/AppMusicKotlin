@@ -28,7 +28,7 @@ class FavSongAdapter(audios: ArrayList<SongData>, private val  context: Context)
         holder.artist.text = audioModel.artist
         holder.duration.text = formatDuration(audio[position].duration)
         Glide.with(context).load(audioModel.albumCover)
-            .apply(RequestOptions().placeholder(R.drawable.headphoneguy_made_by_vedant_r_j_chourey).centerCrop()).into(holder.cover)
+            .apply(RequestOptions().placeholder(R.drawable.img).centerCrop()).into(holder.cover)
         holder.root.setOnClickListener{
             val intent = Intent(context,PlayerActivity::class.java)
             intent.putExtra("index",position)

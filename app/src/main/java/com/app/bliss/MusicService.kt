@@ -67,7 +67,7 @@ class MusicService: Service(), AudioManager.OnAudioFocusChangeListener {
         }else{
             BitmapFactory.decodeResource(
                 resources,
-                R.drawable.headphoneguy_made_by_vedant_r_j_chourey
+                R.drawable.img
             )
         }
 
@@ -87,7 +87,7 @@ class MusicService: Service(), AudioManager.OnAudioFocusChangeListener {
             .setContentText(PlayerActivity.musicListPA[PlayerActivity.songPosition].artist)
             .setStyle(androidx.media.app.NotificationCompat.MediaStyle().setMediaSession(mediaSession.sessionToken))
             .setCategory("Audio")
-            .setLargeIcon(BitmapFactory.decodeResource(resources, R.drawable.headphoneguy_made_by_vedant_r_j_chourey2))
+            .setLargeIcon(BitmapFactory.decodeResource(resources, R.drawable.img))
             .setSmallIcon(R.drawable.music_note)
             .setLargeIcon(img)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -156,7 +156,7 @@ class MusicService: Service(), AudioManager.OnAudioFocusChangeListener {
         Glide.with(this).load( PlayerActivity.musicListPA[PlayerActivity.songPosition].albumCover)
             .apply(
                 RequestOptions()
-                    .placeholder(R.drawable.headphoneguy_made_by_vedant_r_j_chourey)
+                    .placeholder(R.drawable.img)
                     .centerCrop()).into(cover)
     }
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "305283698089",
+    "project_id": "finalapp-5a00b",
+    "storage_bucket": "finalapp-5a00b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305283698089:android:0bc32c3088af5aaf9888b8",
+        "android_client_info": {
+          "package_name": "com.app.bliss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305283698089-c3sdg0qlentnk3s7u8csbvmsrm6i85ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bliss",
+            "certificate_hash": "531dea27bac5b946d73b2bf12272c735a55338c0"
+          }
+        },
+        {
+          "client_id": "305283698089-bsgjq1q2sukl98lv729dlsifpi9shfui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTFUund6AM8AKAibdn95AUFyzFzEXUTGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305283698089-bsgjq1q2sukl98lv729dlsifpi9shfui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
